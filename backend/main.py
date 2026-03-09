@@ -10,7 +10,7 @@ import google.genai as genai
 from typing import List
 
 # Configure Google Gemini API
-GEMINI_API_KEY = "AIzaSyDF31T7RD3A3Fa0hAIOBD-dc7XSCdStQW4"
+GEMINI_API_KEY = "enter api"
 gemini_client = None
 if GEMINI_API_KEY:
     gemini_client = genai.Client(api_key=GEMINI_API_KEY)
